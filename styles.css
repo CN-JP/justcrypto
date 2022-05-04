@@ -1,0 +1,119 @@
+.logo {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+nav {
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.5;
+}
+
+h5, h6, p {
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: url('images/crypto-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  text-align: right;
+  padding: 50px 0;
+  margin-right: 50px;
+  background-color: #FFF;
+  border-radius: 25px;
+  width: 400px;
+  box-shadow: 5px 5px 5px 5px #EFEFEF;
+}
+
+.crypto-image {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 1px 5px;
+}
+
+aside {
+  padding: 2% 10%;
+}
+
+section {
+  padding: 5% 10%;
+}
+
+.services {
+  background-color: #C4DDFF;
+}
+
+.service-image {
+  border-radius: 25%;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 60px auto 30px;
+  transition: height 1s;
+  transition: width 1s;
+  box-shadow: 5px 5px 5px 5px #EFEFEF;
+}
+
+.service-image:hover {
+  height: 150px;
+  width: 150px;
+}
+
+.testimonials {
+  background-color: #EFEFEF;
+}
+
+.testimonials-image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: 60px auto 30px;
+}
+
+.cta {
+  background-color: #C4DDFF;
+}
+
+.youtube span {
+  font-weight: bold;
+  color: #001D6E;
+}
+
+iframe {
+  margin-top: 60px;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  bottom: 0;
+  padding: 50px 0;
+}
+
+.social-icon {
+  padding: 3% 2.5%;
+}
+
+.cnjp a {
+  text-decoration: none;
+}
